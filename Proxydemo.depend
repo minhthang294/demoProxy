@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1556781011 source:c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\main.cpp
+	<iostream>
+	"InternetBrowser.h"
+	"TCPConnection.h"
+	"TCPProxyConnection.h"
+
+1556779120 source:c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\src\internetconnection.cpp
+	"InternetConnection.h"
+
+1556778906 c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\include\internetconnection.h
+	<iostream>
+	<string>
+
+1556779188 source:c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\src\tcpconnection.cpp
+	"TCPConnection.h"
+
+1556779192 c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\include\tcpconnection.h
+	<iostream>
+	<string>
+	<InternetConnection.h>
+
+1556780240 source:c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\src\tcpproxyconnection.cpp
+	"TCPProxyConnection.h"
+
+1556779785 c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\include\tcpproxyconnection.h
+	"TCPConnection.h"
+	"InternetConnection.h"
+
+1556780730 source:c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\src\internetbrowser.cpp
+	"InternetBrowser.h"
+
+1556780738 c:\users\minhthangpham\desktop\code-work-study\c++\proxydemo\include\internetbrowser.h
+	"InternetConnection.h"
+	<iostream>
+	<string>
+
